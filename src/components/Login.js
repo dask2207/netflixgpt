@@ -13,16 +13,15 @@ const Login = () => {
 
     return (
         <>
-        <div className>
+        <div className=''>
             <Header />
-            <div className='' >
+            <div className='relative' >
                 
                 <img className=''  src='https://assets.nflxext.com/ffe/siteui/vlv3/7ca5b7c7-20aa-42a8-a278-f801b0d65fa1/fb548c0a-8582-43c5-9fba-cd98bf27452f/IN-en-20240326-popsignuptwoweeks-perspective_alpha_website_medium.jpg' alt='body background' />
+                <div className='absolute inset-0 bg-black opacity-50'></div>
             </div>
 
-            <div className='h-[115%] w-full bg-gradient-to-t from-black absolute top-0'>
-
-            </div>
+            
 
             <form className='bg-zinc-950 mt-16 px-20 w-[500px] opacity-85 rounded-md absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-40'>
                 <h2 className=' text-start text-white text-4xl py-4 font-bold'>{isSignInForm ? "Sign In" : "Sign Up"}</h2>
